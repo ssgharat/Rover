@@ -276,6 +276,7 @@
         </limit>
       </axis>
     </joint>
+    
     <joint name="wheel_front_spin" type="revolute">
       <parent>fork</parent>
       <child>wheel_front</child>
@@ -376,13 +377,30 @@
         </material>
       </visual>
     </link>
-    <joint name="wheel_rear_right_spin" type="revolute">
+    <joint name="wheel_rear_right_joint" type="revolute">
       <parent>frame</parent>
       <child>wheel_rear_right</child>
       <axis>
-        <xyz>0 1 0</xyz>
+        <xyz>0 1 -0.05</xyz>
       </axis>
     </joint>
+    <joint type="revolute" name="wheel_rear_left_joint">
+      <child>wheel_rear_left</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0.05</xyz>
+        <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+    </joint>
+    <!-- <joint type="revolute" name="rear_right_wheel_joint">
+      <pose>0.0 0.0 -0.1 0 0 0</pose>
+      <child>rear_right_wheel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 -0.05</xyz>
+        <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+    </joint> -->
     <link name='rover/imu_link'>
       <pose>0 0 0 0 0 0</pose>
       <inertial>
@@ -417,7 +435,7 @@
       </axis>
     </joint>
     <joint type="revolute" name="front_steering_joint">
-      <child>wheel_front_steer</child>
+      <child>fork</child>
       <parent>frame</parent>
       <axis>
         <xyz>0 0 1</xyz>
@@ -509,14 +527,50 @@
           <joint_name>front_right_wheel_joint</joint_name>
         </channel>
       -->
-        <channel name="front_wheel_drive">
+        <channel name="front_wheel_steering">
+          <input_index>1</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>-0.9</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position</joint_control_type>
+          <joint_name>front_steering_joint</joint_name>
+          <joint_control_pid>
+            <p>80</p>
+            <i>40</i>
+            <d>2</d>
+            <iMax>400</iMax>
+            <iMin>-400</iMin>
+            <cmdMax>800</cmdMax>
+            <cmdMin>-80<0/cmdMin>
+          </joint_control_pid>
+        </channel>
+        <channel name="rear_left_wheel_drive">
           <input_index>5</input_index>
           <input_offset>0</input_offset>
           <input_scaling>40</input_scaling>
           <zero_position_disarmed>0</zero_position_disarmed>
           <zero_position_armed>0</zero_position_armed>
-          <joint_control_type>velocity</joint_control_type>
-          <joint_name>front_wheel_steering_joint</joint_name>
+          <joint_control_type>position</joint_control_type>
+          <joint_name>wheel_rear_left_joint</joint_name>
+          <joint_control_pid>
+            <p>50</p>
+            <i>20</i>
+            <d>2</d>
+            <iMax>800</iMax>
+            <iMin>-800</iMin>
+            <cmdMax>1200</cmdMax>
+            <cmdMin>-1200</cmdMin>
+          </joint_control_pid>
+        </channel>
+        <channel name="rear_right_wheel_drive">
+          <input_index>6</input_index>
+          <input_offset>0</input_offset>
+          <input_scaling>40</input_scaling>
+          <zero_position_disarmed>0</zero_position_disarmed>
+          <zero_position_armed>0</zero_position_armed>
+          <joint_control_type>position</joint_control_type>
+          <joint_name>wheel_rear_right_joint</joint_name>
           <joint_control_pid>
             <p>50</p>
             <i>20</i>

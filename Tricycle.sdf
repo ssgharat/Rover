@@ -5,7 +5,7 @@
       <pose>-0.40855911616047164 0 0.38502293110800634  0 -0.522020852957719 0</pose>
       <inertial>
         <pose>0.0 0 0  0 0 0</pose>
-        <mass>100</mass>
+        <mass>75</mass>
         <inertia>
           <ixx>0.22799999999999998</ixx>
           <iyy>0.7435210984814149</iyy>
@@ -287,7 +287,7 @@
     <link name="wheel_rear_left">
       <pose>-0.8171182323209433 0.5196152422706631 0.15  0 0 0</pose>
       <inertial>
-        <mass>5</mass>
+        <mass>0.5</mass>
         <inertia>
           <ixx>0.0045</ixx>
           <iyy>0.0045</iyy>
@@ -337,7 +337,7 @@
     <link name="wheel_rear_right">
       <pose>-0.8171182323209433 -0.5196152422706631 0.15  0 0 0</pose>
       <inertial>
-        <mass>5</mass>
+        <mass>0.5</mass>
         <inertia>
           <ixx>0.0045</ixx>
           <iyy>0.0045</iyy>
@@ -603,7 +603,7 @@
         <channel name="front_wheel_steering">
           <input_index>1</input_index>
           <input_offset>0</input_offset>
-          <input_scaling>5</input_scaling>
+          <input_scaling>-0.9</input_scaling>
           <zero_position_disarmed>0</zero_position_disarmed>
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position</joint_control_type>
@@ -622,7 +622,7 @@
         <channel name="rear_left_wheel_drive">
           <input_index>5</input_index>
           <input_offset>0</input_offset>
-          <input_scaling>4</input_scaling>
+          <input_scaling>15</input_scaling>
           <zero_position_disarmed>0</zero_position_disarmed>
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position</joint_control_type>
@@ -640,7 +640,7 @@
         <channel name="rear_right_wheel_drive">
           <input_index>6</input_index>
           <input_offset>0</input_offset>
-          <input_scaling>4</input_scaling>
+          <input_scaling>15</input_scaling>
           <zero_position_disarmed>0</zero_position_disarmed>
           <zero_position_armed>0</zero_position_armed>
           <joint_control_type>position</joint_control_type>

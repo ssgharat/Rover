@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Robot World Launch -->
+  <include file="$(find testbot)/launch/testbot_world.launch"/>
+
+  <!-- AMCL Launch -->
+  <include file="$(find testbot)/launch/amcl.launch"/>
+
+
+</launch>

@@ -140,15 +140,15 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>145 140000000</sim_time>
-      <real_time>551 770208490</real_time>
-      <wall_time>1588137421 150957662</wall_time>
-      <iterations>25281</iterations>
+      <sim_time>1744 172000000</sim_time>
+      <real_time>166 249208229</real_time>
+      <wall_time>1588958659 167140680</wall_time>
+      <iterations>39431</iterations>
       <model name='asphalt_plane'>
-        <pose frame=''>0 0 0 0 -0 0</pose>
+        <pose frame=''>13.064 -2.41857 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
+          <pose frame=''>13.064 -2.41857 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -165,70 +165,30 @@
         </link>
       </model>
       <model name='bus_clone'>
-        <pose frame=''>-21.6506 5.83096 0 0 -0 0</pose>
+        <pose frame=''>-21.8632 5.70251 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-21.6506 5.83096 0 0 -0 0</pose>
+          <pose frame=''>-21.8632 5.70251 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='bus_clone_0'>
-        <pose frame=''>-21.4703 16.1771 0 0 -0 0</pose>
+        <pose frame=''>-21.6828 16.1438 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-21.4703 16.1771 0 0 -0 0</pose>
+          <pose frame=''>-21.6828 16.1438 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_1'>
-        <pose frame=''>-22.6818 -15.4676 0 0 -0 0</pose>
+      <model name='bus_clone_0_clone'>
+        <pose frame=''>-14.054 14.583 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-22.6818 -15.4676 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_10'>
-        <pose frame=''>4.53914 -31.1203 0 0 0 -1.60965</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>4.53914 -31.1203 0 0 0 -1.60965</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_10_clone'>
-        <pose frame=''>-6.77377 -31.1424 0 0 0 -1.60965</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-6.77377 -31.1424 0 0 0 -1.60965</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_10_clone_0'>
-        <pose frame=''>-11.8423 -30.7365 0 0 0 -1.60965</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-11.8423 -30.7365 0 0 0 -1.60965</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_10_clone_1'>
-        <pose frame=''>15.1631 -31.8522 0 0 0 -1.60965</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>15.1631 -31.8522 0 0 0 -1.60965</pose>
+          <pose frame=''>-14.054 14.583 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -245,10 +205,10 @@
         </link>
       </model>
       <model name='bus_clone_10_clone_11'>
-        <pose frame=''>6.54761 29.5509 0 0 0 -1.60965</pose>
+        <pose frame=''>6.86275 28.906 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>6.54761 29.5509 0 0 0 -1.60965</pose>
+          <pose frame=''>6.86275 28.906 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -275,130 +235,210 @@
         </link>
       </model>
       <model name='bus_clone_10_clone_14'>
-        <pose frame=''>-3.79515 -19.6143 0 0 0 -1.05663</pose>
+        <pose frame=''>-16.2077 -3.37328 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-3.79515 -19.6143 0 0 0 -1.05663</pose>
+          <pose frame=''>-16.2077 -3.37328 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone'>
-        <pose frame=''>-7.51378 -8.97941 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_15'>
+        <pose frame=''>-4.14238 -3.26889 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-7.51378 -8.97941 0 0 0 -1.05663</pose>
+          <pose frame=''>-4.14238 -3.26889 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone_0'>
-        <pose frame=''>-8.51998 12.7114 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_16'>
+        <pose frame=''>7.11548 -4.41545 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-8.51998 12.7114 0 0 0 -1.05663</pose>
+          <pose frame=''>7.11548 -4.41545 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone_1'>
-        <pose frame=''>6.03136 17.2981 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_17'>
+        <pose frame=''>17.6248 -4.09135 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>6.03136 17.2981 0 0 0 -1.05663</pose>
+          <pose frame=''>17.6248 -4.09135 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone_2'>
-        <pose frame=''>17.3087 -19.2824 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_19'>
+        <pose frame=''>-10.0369 -3.48113 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>17.3087 -19.2824 0 0 0 -1.05663</pose>
+          <pose frame=''>-10.0369 -3.48113 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone_3'>
-        <pose frame=''>20.8889 14.545 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_1_clone'>
+        <pose frame=''>17.2078 18.778 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>20.8889 14.545 0 0 0 -1.05663</pose>
+          <pose frame=''>17.2078 18.778 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_14_clone_4'>
-        <pose frame=''>19.0186 -0.62734 0 0 0 -1.05663</pose>
+      <model name='bus_clone_10_clone_1_clone_0'>
+        <pose frame=''>5.84981 18.5391 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>19.0186 -0.62734 0 0 0 -1.05663</pose>
+          <pose frame=''>5.84981 18.5391 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_2'>
-        <pose frame=''>27.4256 -32.2651 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_1_clone_1'>
+        <pose frame=''>-4.17893 19.361 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>27.4256 -32.2651 0 0 0 -1.60965</pose>
+          <pose frame=''>-4.17893 19.361 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_3'>
-        <pose frame=''>32.1817 -30.0012 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_1_clone_1_clone'>
+        <pose frame=''>-9.16098 20.0914 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>32.1817 -30.0012 0 0 0 -1.60965</pose>
+          <pose frame=''>-9.16098 20.0914 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_4'>
-        <pose frame=''>33.4196 -27.7277 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_1_clone_1_clone_0'>
+        <pose frame=''>-13.8866 10.9292 0 0 0 -3.11299</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>33.4196 -27.7277 0 0 0 -1.60965</pose>
+          <pose frame=''>-13.8866 10.9292 0 0 0 -3.11299</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_5'>
-        <pose frame=''>-25.8704 -24.5012 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_1_clone_1_clone_0_clone'>
+        <pose frame=''>-8.63676 6.17147 0 0 0 -1.55669</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-25.8704 -24.5012 0 0 0 -1.60965</pose>
+          <pose frame=''>-8.63676 6.17147 0 0 0 -1.55669</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_6'>
-        <pose frame=''>-23.069 -26.5434 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_20'>
+        <pose frame=''>-5.85182 6.19478 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-23.069 -26.5434 0 0 0 -1.60965</pose>
+          <pose frame=''>-5.85182 6.19478 0 0 0 -1.60965</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_10_clone_7'>
-        <pose frame=''>-22.0072 -28.5942 0 0 0 -1.60965</pose>
+      <model name='bus_clone_10_clone_21'>
+        <pose frame=''>3.31012 5.782 0 0 0 -1.60965</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-22.0072 -28.5942 0 0 0 -1.60965</pose>
+          <pose frame=''>3.31012 5.782 0 0 0 -1.60965</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_22'>
+        <pose frame=''>11.8633 5.97546 0 0 0 -1.60965</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>11.8633 5.97546 0 0 0 -1.60965</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23'>
+        <pose frame=''>15.2794 5.38781 0 0 0 -1.58691</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>15.2794 5.38781 0 0 0 -1.58691</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone'>
+        <pose frame=''>26.2052 -1.148 0 0 0 -0.963661</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>26.2052 -1.148 0 0 0 -0.963661</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone_clone'>
+        <pose frame=''>30.6903 2.04484 0 0 0 -0.963661</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>30.6903 2.04484 0 0 0 -0.963661</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone_clone_0'>
+        <pose frame=''>18.6658 9.43109 0 0 0 -2.24465</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>18.6658 9.43109 0 0 0 -2.24465</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone_clone_0_clone'>
+        <pose frame=''>28.1477 26.8952 0 0 0 -2.24465</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>28.1477 26.8952 0 0 0 -2.24465</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone_clone_1'>
+        <pose frame=''>18.3996 9.3009 0 0 0 -2.43854</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>18.3996 9.3009 0 0 0 -2.43854</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_10_clone_23_clone_clone_clone'>
+        <pose frame=''>-18.5884 29.5554 0 0 0 -0.963661</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>-18.5884 29.5554 0 0 0 -0.963661</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -424,51 +464,41 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='bus_clone_2'>
-        <pose frame=''>33.6997 -10.4606 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>33.6997 -10.4606 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_3'>
-        <pose frame=''>33.8388 -1.28137 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>33.8388 -1.28137 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <model name='bus_clone_4'>
-        <pose frame=''>33.7341 7.00135 0 0 -0 0</pose>
+        <pose frame=''>31.7601 7.80635 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>33.7341 7.00135 0 0 -0 0</pose>
+          <pose frame=''>31.7601 7.80635 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='bus_clone_4_clone'>
+        <pose frame=''>23.1049 11.9494 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>23.1049 11.9494 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='bus_clone_5'>
-        <pose frame=''>33.3337 17.6773 0 0 -0 0</pose>
+        <pose frame=''>31.4207 19.1617 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>33.3337 17.6773 0 0 -0 0</pose>
+          <pose frame=''>31.4207 19.1617 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='bus_clone_6'>
-        <pose frame=''>33.4764 28.0474 0 0 -0 0</pose>
+        <pose frame=''>30.5372 28.5849 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>33.4764 28.0474 0 0 -0 0</pose>
+          <pose frame=''>30.5372 28.5849 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -479,26 +509,6 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>-21.3941 25.3196 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_8'>
-        <pose frame=''>33.3105 -20.2313 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>33.3105 -20.2313 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='bus_clone_9'>
-        <pose frame=''>-22.1944 -18.7603 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>-22.1944 -18.7603 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -515,67 +525,67 @@
         </link>
       </model>
       <model name='rover'>
-        <pose frame=''>-0.001553 -0.024459 0.019079 0.000234 0.007267 0.018864</pose>
+        <pose frame=''>0.049446 -0.308964 0.018598 -0.000173 0.007592 0.271993</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
-          <pose frame=''>-0.001553 -0.024459 0.019079 0.000234 0.007267 0.018864</pose>
-          <velocity>-0.000319 -0.002975 0.002046 -0.003125 0.001979 0.001068</velocity>
-          <acceleration>0.124277 0.084303 -0.003255 -0.160462 0.010774 -0.055434</acceleration>
-          <wrench>89.4794 60.6978 -2.34381 0 -0 0</wrench>
+          <pose frame=''>0.049446 -0.308964 0.018598 -0.000173 0.007592 0.271993</pose>
+          <velocity>0.001439 -0.006301 -0.001196 -0.006861 -0.001715 -0.003439</velocity>
+          <acceleration>0.024241 -0.010498 0.726824 -1.01716 1.39519 2.97949</acceleration>
+          <wrench>17.4533 -7.55882 523.313 0 -0 0</wrench>
         </link>
         <link name='depth_camera'>
-          <pose frame=''>0.209314 -0.020829 1.5176 0.000234 0.00727 0.018864</pose>
-          <velocity>0.002636 0.001937 0.001617 -0.00303 0.001978 0.001064</velocity>
-          <acceleration>0.13844 0.255206 -0.005029 -0.162368 0.015116 -0.056794</acceleration>
-          <wrench>0.001384 0.002552 -5e-05 0 -0 0</wrench>
+          <pose frame=''>0.25299 -0.251925 1.51705 -0.000173 0.007595 0.271993</pose>
+          <velocity>-0.000819 0.003142 -0.001199 -0.006614 -0.001578 -0.003448</velocity>
+          <acceleration>1.36569 -1.36126 0.620859 1.15104 0.951613 -0.139044</acceleration>
+          <wrench>0.013657 -0.013613 0.006209 0 -0 0</wrench>
         </link>
         <link name='front_left_wheel'>
-          <pose frame=''>1.18983 0.714901 0.383478 -1.42939 -0.030824 0.012582</pose>
-          <velocity>0.004485 -0.00027 0.000924 0.000212 -0.016682 -0.107419</velocity>
-          <acceleration>-4.304 -0.027274 -0.01584 -0.027712 -0.277838 -2.05051</acceleration>
-          <wrench>-51.648 -0.327284 -0.190074 0 -0 0</wrench>
+          <pose frame=''>1.01716 0.704711 0.380639 -1.42655 -0.485837 0.204144</pose>
+          <velocity>-0.012434 -0.013047 0.0052 0.029827 -0.008272 0.103501</velocity>
+          <acceleration>0.370631 -0.039749 0.046743 0.232823 0.697219 0.117845</acceleration>
+          <wrench>4.44757 -0.476987 0.560918 0 -0 0</wrench>
         </link>
         <link name='front_left_wheel_steering_block'>
-          <pose frame=''>1.19363 0.498515 0.371307 1.64782 0.00734 0.01803</pose>
-          <velocity>-0.004573 -0.000347 -0.001248 -0.00466 0.01851 -0.129367</velocity>
-          <acceleration>-0.604143 0.101318 -0.079444 -0.421997 0.98554 2.00654</acceleration>
-          <wrench>-0.604143 0.101318 -0.079444 0 -0 0</wrench>
+          <pose frame=''>1.07563 0.496621 0.369744 1.63332 0.007652 0.272138</pose>
+          <velocity>0.005004 -0.008794 -0.002534 0.022429 -0.002762 0.110403</velocity>
+          <acceleration>0.303991 -0.149977 0.377257 1.19911 0.825958 -1.97506</acceleration>
+          <wrench>0.303991 -0.149977 0.377257 0 -0 0</wrench>
         </link>
         <link name='front_right_wheel'>
-          <pose frame=''>1.21666 -0.718131 0.381615 1.44055 0.042313 0.015068</pose>
-          <velocity>-0.016922 -0.000444 0.001832 0.00242 -0.04707 -0.013016</velocity>
-          <acceleration>-1.01232 0.002023 0.009875 -0.039506 -1.36132 0.356746</acceleration>
-          <wrench>-12.1478 0.024272 0.1185 0 -0 0</wrench>
+          <pose frame=''>1.40315 -0.675688 0.383443 1.39338 0.618383 0.169025</pose>
+          <velocity>0.023069 0.000269 -0.000557 0.006693 0.046642 0.085419</velocity>
+          <acceleration>0.246911 -0.271216 -0.072539 0.881881 0.514546 0.077671</acceleration>
+          <wrench>2.96293 -3.25459 -0.870472 0 -0 0</wrench>
         </link>
         <link name='front_right_wheel_steering_block'>
-          <pose frame=''>1.21244 -0.502001 0.370642 1.50536 0.007431 0.019874</pose>
-          <velocity>-0.002345 -0.000238 0.001067 0.001949 0.005106 -0.000752</velocity>
-          <acceleration>0.316578 0.036331 0.040196 -0.167502 -1.14023 2.03144</acceleration>
-          <wrench>0.316578 0.036331 0.040196 0 -0 0</wrench>
+          <pose frame=''>1.34454 -0.467217 0.370591 1.49105 0.007516 0.270859</pose>
+          <velocity>0.001364 -0.006925 0.000951 0.015973 0.012563 0.082105</velocity>
+          <acceleration>-0.483801 -0.280514 -0.752234 -1.36178 0.171482 2.20994</acceleration>
+          <wrench>-0.483801 -0.280514 -0.752234 0 -0 0</wrench>
         </link>
         <link name='rear_left_wheel'>
-          <pose frame=''>-1.00609 0.672388 0.37405 -1.5205 -0.028311 0.017112</pose>
-          <velocity>-0.000434 -0.002029 0.001528 0.004947 -0.001082 0.000683</velocity>
-          <acceleration>0.178291 0.12349 -0.075379 -0.388982 0.966736 -0.016581</acceleration>
-          <wrench>2.13949 1.48188 -0.904548 0 -0 0</wrench>
+          <pose frame=''>-1.09752 0.114234 0.373701 -1.51937 -0.291956 0.257046</pose>
+          <velocity>0.001904 0.003268 0.0034 -0.011746 0.004913 -0.00142</velocity>
+          <acceleration>0.442431 -0.4862 0.518582 -2.11985 -0.056954 -2.14442</acceleration>
+          <wrench>5.30917 -5.8344 6.22299 0 -0 0</wrench>
         </link>
         <link name='rear_right_wheel'>
-          <pose frame=''>-0.979096 -0.758847 0.373765 1.52216 0.033486 0.017631</pose>
-          <velocity>0.001145 -0.001683 0.006068 0.006887 0.00315 0.001069</velocity>
-          <acceleration>0.107836 0.130705 0.094489 -0.39482 -0.219467 -0.354214</acceleration>
-          <wrench>1.29404 1.56846 1.13387 0 -0 0</wrench>
+          <pose frame=''>-0.712919 -1.26461 0.3738 1.51776 0.364676 0.253741</pose>
+          <velocity>-0.001988 -0.000122 0.003718 0.00111 -0.003453 -0.006029</velocity>
+          <acceleration>0.090231 0.284106 0.018464 1.58116 0.498617 0.740493</acceleration>
+          <wrench>1.08277 3.40927 0.221564 0 -0 0</wrench>
         </link>
         <link name='rover/imu_link'>
-          <pose frame=''>-0.001554 -0.024459 0.019091 0.000234 0.00727 0.018864</pose>
-          <velocity>-0.000322 -0.002971 0.002045 -0.00303 0.001978 0.001064</velocity>
-          <acceleration>0.118873 0.025842 -0.001717 -0.162047 0.012906 -0.055938</acceleration>
-          <wrench>0.001783 0.000388 -2.6e-05 0 -0 0</wrench>
+          <pose frame=''>0.049445 -0.308964 0.01861 -0.000173 0.007595 0.271993</pose>
+          <velocity>0.001398 -0.006242 -0.001142 -0.006614 -0.001578 -0.003448</velocity>
+          <acceleration>-0.464256 0.487884 0.799336 1.21997 1.21725 -0.146552</acceleration>
+          <wrench>-0.006964 0.007318 0.01199 0 -0 0</wrench>
         </link>
         <link name='rplidar::link'>
-          <pose frame=''>0.014421 -0.02468 2.21898 0.000238 0.007256 0.018866</pose>
-          <velocity>0.004056 0.003905 0.002019 -0.00312 0.001985 0.001652</velocity>
-          <acceleration>0.148664 0.387006 -0.001454 -0.16274 0.015511 0.232369</acceleration>
-          <wrench>0.028246 0.073531 -0.000276 0 -0 0</wrench>
+          <pose frame=''>0.065414 -0.304116 2.2185 -0.000172 0.007582 0.271994</pose>
+          <velocity>-0.002951 0.009502 -0.00138 -0.007278 -0.002156 -0.002954</velocity>
+          <acceleration>2.41593 -2.32626 0.85597 1.21441 1.06335 0.084781</acceleration>
+          <wrench>0.459026 -0.441989 0.162634 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -584,7 +594,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>81.1563 -85.0278 156.515 -0 1.00764 2.33619</pose>
+        <pose frame=''>-48.3604 25.5626 72.3394 0 0.90364 -0.339809</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2255,120 +2265,6 @@
       </link>
       <pose frame=''>-21.4703 16.1771 0 0 -0 0</pose>
     </model>
-    <model name='bus_clone_1'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-22.6818 -15.4676 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_2'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>33.6997 -10.4606 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_3'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>33.8388 -1.28137 0 0 -0 0</pose>
-    </model>
     <model name='bus_clone_4'>
       <static>1</static>
       <link name='link'>
@@ -2520,462 +2416,6 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-21.3941 25.3196 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_8'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>33.3105 -20.2313 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_9'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-22.1944 -18.7603 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_10'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>4.53914 -31.1203 0 0 -0 0</pose>
-    </model>
-    <model name='bus_clone_10_clone'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-6.77377 -31.1424 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_0'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-11.8423 -30.7365 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_1'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>15.1631 -31.8522 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_2'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>27.4256 -32.2651 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_3'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>32.1817 -30.0012 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_4'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>33.4196 -27.7277 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_5'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-25.8704 -24.5012 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_6'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-23.069 -26.5434 0 0 0 -1.60965</pose>
-    </model>
-    <model name='bus_clone_10_clone_7'>
-      <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <bounce/>
-            <friction>
-              <torsional>
-                <ode/>
-              </torsional>
-              <ode/>
-            </friction>
-          </surface>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <scale>0.01 0.01 0.01</scale>
-              <uri>model://bus/meshes/bus.obj</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose frame=''>-22.0072 -28.5942 0 0 0 -1.60965</pose>
     </model>
     <model name='bus_clone_10_clone_8'>
       <static>1</static>
@@ -3241,9 +2681,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>2.09527 -15.9386 0 0 0 -1.60965</pose>
+      <pose frame=''>-16.1942 -2.98144 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone'>
+    <model name='bus_clone_10_clone_15'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3279,9 +2719,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>5.45675 -14.2095 0 0 0 -1.05663</pose>
+      <pose frame=''>-4.14238 -3.26889 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone_0'>
+    <model name='bus_clone_10_clone_16'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3317,9 +2757,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-13.5774 6.0099 0 0 0 -1.05663</pose>
+      <pose frame=''>7.17667 -3.71638 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone_1'>
+    <model name='bus_clone_10_clone_17'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3355,9 +2795,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>-4.57695 11.5622 0 0 0 -1.05663</pose>
+      <pose frame=''>17.6248 -4.09135 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone_2'>
+    <model name='bus_clone_10_clone_19'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3393,9 +2833,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>4.7647 16.9106 0 0 0 -1.05663</pose>
+      <pose frame=''>-10.1754 -3.01955 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone_3'>
+    <model name='bus_clone_10_clone_20'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3431,9 +2871,9 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>20.8889 14.545 0 0 0 -1.05663</pose>
+      <pose frame=''>-5.85182 6.19478 0 0 0 -1.60965</pose>
     </model>
-    <model name='bus_clone_10_clone_14_clone_4'>
+    <model name='bus_clone_10_clone_21'>
       <static>1</static>
       <link name='link'>
         <collision name='collision'>
@@ -3469,7 +2909,615 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>19.0186 -0.62734 0 0 0 -1.05663</pose>
+      <pose frame=''>3.31012 5.782 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_22'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>12.1164 5.57025 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_23'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>18.7638 5.43196 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_4_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>23.1049 11.9494 0 0 -0 0</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>17.2078 18.778 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone_0'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>6.19823 19.1677 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone_1'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-4.17893 19.361 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_0_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-14.054 14.583 0 0 -0 0</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone_1_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-9.16098 20.0914 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone_1_clone_0'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-10.9235 7.32754 0 0 0 -1.60965</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>27.399 0.898281 0 0 0 -1.58691</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>30.6903 2.04484 0 0 0 -0.963661</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone_clone_0'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>22.2248 7.7301 0 0 0 -0.963661</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone_clone_1'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>15.6787 11.188 0 0 0 -0.963661</pose>
+    </model>
+    <model name='bus_clone_10_clone_1_clone_1_clone_0_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-14.2554 8.69906 0 0 0 -3.11299</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone_clone_0_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>28.1477 26.8952 0 0 0 -2.24465</pose>
+    </model>
+    <model name='bus_clone_10_clone_23_clone_clone_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <scale>0.01 0.01 0.01</scale>
+              <uri>model://bus/meshes/bus.obj</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>-18.5884 29.5554 0 0 0 -0.963661</pose>
     </model>
   </world>
 </sdf>
